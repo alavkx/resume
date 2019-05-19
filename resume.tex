@@ -1,0 +1,147 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Alec} \headerlastnamestyle{Lavoie} \\
+	\vspace{2mm}
+	{\faEnvelope\ alavoie3@gmail.com} | {\faMapMarker\ Boston, MA} | {\faLink\ aleclavoie.com}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Software Developer}
+	{Uvitron International}
+	{West Springfield, MA}
+	{Jun 2015 – May 2016}
+	{}
+	\cventry
+	{Software Developer}
+	{AspenTech}
+	{Bedford, MA}
+	{Nov 2016 – Apr 2018}
+	{}
+	\cventry
+	{Software Engineer}
+	{General Indemnity Group}
+	{Boston, MA}
+	{May 2018 – Present}
+	{\begin{cvitems}
+		\item {One of two engineers working to create all aspects of a no-touch, direct to customer e-commerce experience for surety bonds}
+		\item {UI Development}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Technologies:  & {\skill{ Gatsby, Webpack, d3.js, React, React Hooks, Ramda, GoJS, Cypress, Jest, Netlify, Contentful}} \\
+		Specializations:  & {\skill{ Functional Programming, Accessibility, JAM Stack, Single Page/Hybrid Applications}} \\
+		Languages:  & {\skill{ JavaScript, TypeScript, Node.js, C, Bash}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{LCD and PC user interface for embedded microcontroller based ultra-violet curing oven}
+	{IntelliRay User Interface}
+	{C Language}
+	{youtu.be/Cm2gWL0xiKA}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Performant, reusable solution to visualize and explore the relationships between multi-dimensional data}
+	{Parallel Coordinate Chart}
+	{d3.js, TypeScript, webpack}
+	{parallel-coordinate.netlify.com}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{E-commerce storefront to browse surety bond product catalog}
+	{Self-service Surety}
+	{Gatsby, Contentful, GraphQL}
+	{selfservicesurety.com}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{E-commerce surety bond checkout experience}
+	{Surety Bond Checkout}
+	{React (Hooks), Webpack, Cypress}
+	{bit.ly/2VLPbYj}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bsc. in Computer Science}
+	{University of Massachusetts Dartmouth}
+	{Dartmouth, MA}
+	{Sept 2012 – Jun 2016}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+
+\ 
+\end{document}

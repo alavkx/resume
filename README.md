@@ -1,5 +1,4 @@
-# Resumake Template 2
-> LaTeX code generated at [resumake.io](https://resumake.io)
+# Alec Lavoie — UI Engineer
 
 ## Usage
 To generate a PDF from this LaTeX code, navigate to this folder in a terminal and run:

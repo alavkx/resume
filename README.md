@@ -5,4 +5,10 @@ To generate a PDF from this LaTeX code, navigate to this folder in a terminal an
 
     xelatex resume.tex
 
-## [Installation instructions](https://ryan-holben.github.io/tex/latex/installation/macos/2016/08/21/installing-tex-on-mac/)
+## [Installation instructions]
+```bash
+brew cask install basictex
+echo "export PATH="/usr/local/texlive/2016basic/bin/x86_64-darwin:$PATH" >> ~/.bash_profile
+sudo tlmgr update --self
+sudo tlmgr install texliveonfly
+```

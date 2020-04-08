@@ -1,18 +1,5 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Configuration
@@ -51,8 +38,36 @@
 	\vspace{2mm}
 	{\faEnvelope\ alavoie3@gmail.com} | {\faMapMarker\ Boston, MA} | {\faLink\ github.com/alavkx}
 \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Projects}
 \begin{cventries}
+	\cventry
+	{No code tool empowering product and marketing to increase user engagement}
+	{Flow Builder Chrome Extension}
+	{React, Webpack, testing-library}
+	{appcues.com/flow-builder}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Node.js api that performed all operations twice — for Firebase and the migration target (Postgres)}
+	{Database Migration API}
+	{Node.js, Typescript, OpenAPI}
+	{Not available}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Track and store unannounced product releases and notify subscribers via Discord integration}
+	{Product release/re-stock notification system}
+	{Elixir, Phoenix, PostreSQL}
+	{github.com/alavkx/drip-drop}
+	{}
+	
+	\vspace{-5mm}
 	\cventry
 	{E-commerce storefront to browse surety bond product catalog}
 	{Self-service Surety}
@@ -64,45 +79,51 @@
 	\cventry
 	{E-commerce surety bond checkout experience}
 	{Surety Bond Checkout}
-	{React (Hooks), Webpack, Cypress}
+	{React, Webpack, Cypress}
 	{bit.ly/2VLPbYj}
 	{}
 
 	\vspace{-5mm}
 	\cventry
-	{Performant, reusable solution to visualize and explore the relationships between multi-dimensional data}
+	{Reusable solution to visualize the relationships between multi-dimensional datasets}
 	{Parallel Coordinate Chart}
 	{d3.js, TypeScript, webpack}
 	{parallel-coordinate.netlify.com}
 	{}
 	
 	\vspace{-5mm}
-	\cventry
-	{LCD and PC user interface for embedded microcontroller based ultra-violet curing oven}
-	{IntelliRay User Interface}
-	{C Language}
-	{youtu.be/Cm2gWL0xiKA}
-	{}
-	
-	\vspace{-5mm}
-\end{cventries}
-\cvsection{Skills}
-\begin{cventries}
-	\cventry
-	{}
-	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		Technologies:  & {\skill{ Gatsby, Webpack, d3.js, React, React Hooks, Ramda, GoJS, Cypress, Jest, Netlify, Contentful}} \\
-		Specializations:  & {\skill{ Functional Programming, Accessibility, JAM Stack, Single Page/Hybrid Applications, Performance}} \\
-		Languages:  & {\skill{ JavaScript, TypeScript, Node.js (novice), Bash}} \\
-		\end{tabular}}}
-	{}
-	{}
-	{}
 \end{cventries}
 
-\vspace{-7mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Learning
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Learning}
 \begin{cvhonors}
+	\cvhonor
+	{Domain Modeling Made Functional}
+	{Taming software complexity with typed functional languages}
+	{Scott Wlaschin}
+	{Dec 2019}
+	\cvhonor
+	{Learn Type-Driven Development}
+	{Using the compiler to guarantee quality software}
+	{Yawar Amin}
+	{Nov 2019}
+	\cvhonor
+	{ReasonML Conference}
+	{Javascript/React future discussion and workshops}
+	{ReasonConf}
+	{Oct 2019}
+	\cvhonor
+	{Web Development with ReasonML}
+	{ReasonML language introduction}
+	{J. David Eisenberg}
+	{Sept 2019}
+	\cvhonor
+	{The Little Elixir and OTP Guidebook}
+	{Elixir and OTP language concepts}
+	{Ben Tai Wei Hao}
+	{Jul 2019}
 	\cvhonor
 	{React Hooks Workshop}
 	{hands on advanced React patterns using Hooks}
@@ -124,6 +145,7 @@
 	{Kyle Simpson}
 	{Jun 2016}
 \end{cvhonors}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Experience
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -131,14 +153,25 @@
 \begin{cventries}
 	\cventry
 	{Software Engineer}
+	{Appcues}
+	{Boston, MA}
+	{July 2019 – April 2020}
+	{\begin{cvitems}
+		\item {Increased engineer productivity and work quality by modernizing ops/testing tooling and practices}
+		\item {Facilitated communication and doc/code automation by utilizing language agnostic OpenAPI spec during database migration}
+		\item {Ensured seamless database migration by creating a proxy API that dual writes/reads to/from multiple targets}
+		\item {Rallied learning culture by mentoring a Junior Engineer and promoting learning resources and workshops}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer}
 	{General Indemnity Group}
 	{Boston, MA}
-	{May 2018 – Present}
+	{May 2018 – July 2019}
 	{\begin{cvitems}
-		\item {Created a mobile first, highly performant, SEO friendly static e-commerce storefront to showcase bond product catalog}
-		\item {Worked alongside one other engineer to create a feature rich (progress saving, re-marketing, accessible) checkout experience with UX iterations based on analytics funnel in order to improve user success and conversions}
-		\item {Empowered non-engineers to make changes to the product catalog and marketing copy by sourcing content from a headless CMS}
-		\item {Used various organizational tools to assist in communicating project direction, progress, and roadmap}
+		\item {Showcased bond product catalog by creating a mobile first, performant, SEO friendly static e-commerce storefront}
+		\item {Improved user success and conversions by creating a feature rich (progress saving, re-marketing, accessible) checkout experience with UX iterations based on analytics funnel}
+		\item {Reduced operation cost and increased scalability of content creation and management by designing a headless CMS schema and integrating e-commerce site with GUI admin portal}
+		\item {Assisted in communicating project direction, progress, and roadmap using various organizational tools}
 		\end{cvitems}}
 	\cventry
 	{Software Developer}
@@ -146,25 +179,14 @@
 	{Bedford, MA}
 	{Nov 2016 – Apr 2018}
 	{\begin{cvitems}
-		\item {Identified and resolved blocking/expensive actions around the application to improve perceived performance}
-		\item {Created tool to map and explore costs, sales, and raw good attributes}
-		\item {Performed significant refactors to legacy components and views in order to secure the longevity of the codebase}
-		\item {Communicated effectively across an asynchronous team located in both Bedford and Beijing}
 		\end{cvitems}}
-	\cventry
-	{Software Developer}
-	{Uvitron International}
-	{West Springfield, MA}
-	{Jun 2015 – Sep 2015}
-	{\begin{cvitems}
-		\item {Wrote keypad-driven menu system that served as the interface for all possible system actions}
-		\item {Hooked in to microcontroller API and various sensors to report and handle system hardware errors}
-		\end{cvitems}}
+	\vspace{-5mm}
 \end{cventries}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Education
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Education}
+\cvsection{Formal Education}
 \begin{cventries}
 	\cventry
 	{BSc. in Computer Science}
@@ -173,7 +195,4 @@
 	{Sept 2012 – Jun 2016}
 	{}
 \end{cventries}
-
-\vspace{-2mm}
-\ 
 \end{document}

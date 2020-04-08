@@ -5,5 +5,4 @@ To generate a PDF from this LaTeX code, navigate to this folder in a terminal an
 
     xelatex resume.tex
 
-## Requirements
-You will need to have `xelatex` installed on your machine.
+## [Installation instructions](https://ryan-holben.github.io/tex/latex/installation/macos/2016/08/21/installing-tex-on-mac/)

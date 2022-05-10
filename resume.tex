@@ -45,21 +45,29 @@
 \cvsection{Projects}
 \begin{cventries}
 	\cventry
+	{Logistics platform for the agriculture supply chain}
+	{Indigo Transport Management System¹}
+	{React, XState, Apollo}
+	{trucking.indigoag.net}
+	{}
+	
+	\vspace{-6mm}
+	\cventry
 	{No code tool used by over 10,000 product and marketing professionals to increase user engagment}
-	{Flow Builder Chrome Extension}
+	{Flow Builder Chrome Extension²}
 	{React, Webpack, testing-library}
 	{appcues.com/flow-builder}
 	{}
 	
-	\vspace{-5mm}
+	\vspace{-6mm}
 	\cventry
 	{Shim API that performs dual writes/reads to ensure a smooth migration from Firebase to Postgres}
-	{Database Migration API}
+	{Database Migration API²}
 	{Node.js, Typescript, OpenAPI}
 	{Not public}
 	{}
 	
-	\vspace{-5mm}
+	\vspace{-6mm}
 	\cventry
 	{Track and store upcoming product releases and notify subscribers via Discord integration}
 	{Product release/re-stock notification system}
@@ -67,31 +75,23 @@
 	{github.com/alavkx/drip-drop}
 	{}
 	
-	\vspace{-5mm}
+	\vspace{-6mm}
 	\cventry
-	{E-commerce storefront to browse surety bond product catalog}
-	{Self-service Surety}
-	{Gatsby, Contentful, GraphQL}
-	{selfservicesurety.com}
-	{}
-	
-	\vspace{-5mm}
-	\cventry
-	{E-commerce surety bond checkout experience}
-	{Surety Bond Checkout}
-	{React, Webpack, Cypress}
-	{bit.ly/2VLPbYj}
+	{E-commerce storefront to browse and purchase from surety bond product catalog}
+	{Self-service Surety³}
+	{Gatsby, Contentful, GQL, Cypress}
+	{selfservicesurety.com • bit.ly/2VLPbYj}
 	{}
 
-	\vspace{-5mm}
+	\vspace{-6mm}
 	\cventry
 	{Reusable solution to visualize the relationships between multi-dimensional datasets}
-	{Parallel Coordinate Chart}
-	{d3.js, TypeScript, webpack}
+	{Parallel Coordinate Chart⁴}
+	{d3.js, TypeScript, Webpack}
 	{parallel-coordinate.netlify.com}
 	{}
 	
-	\vspace{-5mm}
+	\vspace{-6mm}
 \end{cventries}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,12 +100,24 @@
 \cvsection{Work Experience}
 \begin{cventries}
 	\cventry
+	{Front-end Software Engineer}
+	{Indigo Agriculture¹}
+	{Remote}
+	{July 2020 – Jan 2022}
+	{\begin{cvitems}
+		\item {Grounded complex workflow designs by introducing Statecharts as a design and development tool}
+		\item {Documented and resolved page-by-page application lighthouse warnings, critical workflow frame jank, dependency graph bloat (down ~60\%), and gql cache misses}
+		\item {Implemented performance montoring systems that deliver live web vitals and performance regression alerting}
+		\item {Monitored and refined design patterns, collaborating cross-functionally to ensure a consistent and well considered user experience}
+		\item {Promoted accessible design and asserted our success with a test suite driven by accessible queries}
+		\end{cvitems}}	
+	\cventry
 	{Software Engineer}
-	{Appcues}
+	{Appcues²}
 	{Boston, MA}
 	{July 2019 – April 2020}
 	{\begin{cvitems}
-		\item {Increased engineer productivity and work quality by tightening the devlopment feedback loop with modern ops and testing tools}
+		\item {Increased engineer productivity and work quality by tightening the development feedback loop with modern ops and testing tools}
 		\item {Facilitated communication and doc/code automation by utilizing language agnostic OpenAPI spec during database migration}
 		\item {Ensured seamless database migration by creating a shim API that dual writes and reads from multiple targets that improved application boot time and product reliability}
 		\item {Championed learning culture by mentoring a Junior Engineer and promoting learning resources and workshops}
@@ -113,33 +125,35 @@
 		\end{cvitems}}
 	\cventry
 	{Software Engineer}
-	{General Indemnity Group}
+	{General Indemnity Group³}
 	{Boston, MA}
 	{May 2018 – July 2019}
 	{\begin{cvitems}
-		\item {Showcased bond product catalog by creating a mobile-first, SEO-friendly static e-commerce storefront}
+		\item {Showcased bond product catalog by creating a mobile-first, blazing fast e-commerce storefront}
 		\item {Multiplied user success and conversions by creating and refining a feature-rich (progress-saving, re-marketing, accessible) checkout experience with UX iterations based on analytics funnel}
 		\item {Reduced operation cost by 40\% and increased scalability of content creation and management by designing a headless CMS schema and integrating e-commerce site with GUI admin portal}
 		\item {Collaborated with acting CTO and VP in order to identify and design high impact low cost solutions}
 		\end{cvitems}}
 	\cventry
-	{Software Developer}
-	{AspenTech}
+	{Software Developer} 
+	{AspenTech⁴}
 	{Bedford, MA}
 	{Nov 2016 – Apr 2018}
 	{\begin{cvitems}
-		\item {Improved perceived performance by identifying and resolving blocking or expensive actions in canvas flowchart}
-		\item {Designed and realized multi-dimensional data insight tool commonly known as a parallel coordinate chart}
-		\item {Collaborated effectively across a distributed team located in Bedord, Houston, and Shanghai}
 		\end{cvitems}}
-	\vspace{-5mm}
+	\vspace{-8mm}
 \end{cventries}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Learning
+%     Education
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Personal Learning}
+\cvsection{Education}
 \begin{cvhonors}
+	\cvhonor
+	{Crafting Interpreters}
+	{guide to implement a full-featured efficient scripting language}
+	{Robert Nystrom}
+	{Jun 2021}
 	\cvhonor
 	{ReasonML Conference}
 	{Javascript/React future discussion and workshops}
@@ -170,18 +184,10 @@
 	{JavaScript fundamentals deep dive}
 	{Kyle Simpson}
 	{Jun 2016}
-\end{cvhonors}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Education
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Formal Education}
-\begin{cventries}
-	\cventry
-	{BSc. in Computer Science}
+	\cvhonor
+	{BSc. Computer Science}
 	{University of Massachusetts Dartmouth}
 	{Dartmouth, MA}
-	{Sept 2012 – Jun 2016}
-	{}
-\end{cventries}
+	{Jun 2016}
+\end{cvhonors}
 \end{document}

@@ -27,7 +27,7 @@ You may be on a new mac which does not come with python or python2 installed. Yo
 sudo mkdir -p /usr/local/bin # Thankfully, `/usr/local/bin` is already in the path
 sudo ln -s /usr/bin/python3 /usr/local/bin/python
 # Running now will return `xcode-select: Failed to locate 'python', requesting installation of command line developer tools.`
-# To avoid that, you also need to symlink for xcode-select
+# To avoid that, you also need to symlink for xcode-select 'CommandLineTools'
 sudo ln -s /Library/Developer/CommandLineTools/usr/bin/python3 /Library/Developer/CommandLineTools/usr/bin/python
 ```
 
